@@ -35,7 +35,7 @@ def main():
     # checks if lenght of data is the same as the said lenght
         assert len(data) == n
     elif "F" in ievade:
-        fails = "./tests/" + input("Input filename(04): ")
+        fails = "tests/" + input("Input filename(04): ")
         if "a" in fails:
             print("wrong file name")
             return
