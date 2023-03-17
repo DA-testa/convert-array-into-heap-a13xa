@@ -27,7 +27,7 @@ def main():
     # TODO : add input and corresponding checks
     # add another input for I or F 
     # first two tests are from keyboard, third test is from a file
-    ievade = input("Input I or F: ")
+    ievade = input("Input I or F:  ")
     if "I" in ievade:
     # input from keyboard
         n = int(input())
